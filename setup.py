@@ -15,6 +15,7 @@ setup(name='pareto.urllib2timeout',
       url='',
       license='BSD',
       packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
+      namespace_packages=['pareto', ],
       include_package_data=True,
       zip_safe=False,
       install_requires=[
